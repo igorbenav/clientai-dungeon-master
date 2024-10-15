@@ -90,12 +90,12 @@ For Windows:
 
 Download the installer from the Ollama GitHub releases page and follow the installation instructions.
 
-5. Pull the Llama 2 Model
+5. Pull the Llama 3 Model
 
-After installing Ollama, download the Llama 2 model:
+After installing Ollama, download the Llama 3 model:
 
 ```bash
-ollama pull llama2
+ollama pull llama3
 ```
 
 Note: The download may take some time depending on your internet connection.

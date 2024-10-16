@@ -64,7 +64,7 @@ curl -sSL https://install.python-poetry.org | python3 -
 2. Clone the Repository:
 
 ```bash
-git clone https://github.com/yourusername/ai_dungeon_master.git
+git clone https://github.com/igorbenav/ai_dungeon_master.git
 cd ai_dungeon_master
 ```
 
@@ -164,31 +164,7 @@ ai_dungeon_master/
 ├── .env
 ├── .gitignore
 ├── README.md
-├── requirements.txt
 └── pyproject.toml
-```
-
-Create a `pyproject.toml` file in the root directory with the following content:
-
-```toml
-[tool.poetry]
-name = "ai_dungeon_master"
-version = "0.1.0"
-description = "An AI-powered text-based RPG adventure guided by multiple AI models."
-authors = ["Your Name <your.email@example.com>"]
-
-[tool.poetry.dependencies]
-python = "^3.9"
-clientai = {extras = ["all"], version = "^1.0.0"}
-requests = "^2.26.0"
-python-decouple = "^3.5"
-
-[tool.poetry.dev-dependencies]
-# Add any development dependencies here
-
-[build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
 ```
 
 ## Usage
